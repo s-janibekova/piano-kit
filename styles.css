@@ -1,0 +1,117 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+p {
+  padding-top: 12rem;
+  margin: 30px;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.d {
+  background-image: url("images/do.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+}
+
+.r {
+  background-image: url("images/re.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+
+}
+
+.m {
+  background-image: url("images/mi.png");
+  background-size: 100% 100%;
+  width: 30%;
+}
+
+.f {
+  background-image: url("images/fa.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+}
+
+.s {
+  background-image: url("images/sol.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+}
+
+.l {
+  background-image: url("images/lya.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+}
+
+.si {
+  background-image: url("images/si.png");
+  background-size: 100% 100%;
+  width: 30%;
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.piano {
+  border: none;
+  text-transform: uppercase;
+  width: 150px;
+  height: 350px;
+  font-weight: 700;
+  color: #252a34;
+  margin-top: 30px;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  outline: none;
+  text-align: center;
+  margin-right:-12px;
+  border-radius: 0 0 30px 30px ;
+
+
+}
+
+button {
+  display: inline ;
+  margin-right:-4px;
+  padding: 0;
+  margin: 0;
+}
